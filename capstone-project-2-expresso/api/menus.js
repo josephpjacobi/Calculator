@@ -206,6 +206,7 @@ menusRouter.delete('/:menuId/menu-items/:menuItemId', (req, res, next) => {
                  }
             });
         } else {
+          
           res.sendStatus(404);
         } 
       });
